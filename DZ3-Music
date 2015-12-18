@@ -1,0 +1,12 @@
+public class MusInstr{
+}
+public class Guitar extends MusInstr{
+}
+public class Piano extends MusInstr{
+}
+public class Trumpet extends MusInstr{
+}
+
+public class MusicStore {
+		List <MusInstr> instruments; //List потому, что нужно содержать дублирующиеся данные
+}
