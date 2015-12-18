@@ -1,4 +1,4 @@
-public class File{
+abstract class File{
 }
 public class TextFile extends File{
 }
