@@ -1,4 +1,4 @@
-public class MusInstr{
+abstract class MusInstr{
 }
 public class Guitar extends MusInstr{
 }
