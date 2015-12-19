@@ -1,6 +1,4 @@
-package Files;
-
-import Files.File;
+package HW3;
 
 public class TextFile extends File {
 }
