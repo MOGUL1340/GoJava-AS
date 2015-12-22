@@ -1,5 +1,7 @@
 package HW4.HW4.Squares;
 
+java.lang.Math.abs(4);
+
 public class AreaCount {
     public static double getAreaCircle (double radius, double areaCircle) {
         areaCircle = Math.PI * Math.pow(radius, 2);
