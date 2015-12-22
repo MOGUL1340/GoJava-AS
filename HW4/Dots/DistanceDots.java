@@ -1,5 +1,7 @@
 package HW4.HW4.Dots;
 
+java.lang.Math.abs(4);
+
 public class DistanceDots {
     public static double getDistance(double x1, double x2, double y1, double y2) {
         double dx = x1 - x2;
