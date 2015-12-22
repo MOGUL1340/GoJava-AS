@@ -1,8 +1,8 @@
 package HW4.HW4.Squares;
 
 public class SquaresCount {
-    public static double getSquareCircle (double pi = 3.14159, double radius, double squareCircle) {
-        squareCircle = pi * radius * radius;
+    public static double getSquareCircle (double radius, double squareCircle) {
+        squareCircle = Math.PI * Math.pow(radius, 2);
         return squareCircle;
     }
     public static double getSquareTriangle (int a = 2, double cathet1, double cathet2, double squareTriangle) {
