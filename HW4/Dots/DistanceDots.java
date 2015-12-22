@@ -1,6 +1,7 @@
 package HW4.HW4.Dots;
 
-java.lang.Math;
+import java.lang.Math;
+
 
 public class DistanceDots {
     public static double getDistance(double x1, double x2, double y1, double y2) {
