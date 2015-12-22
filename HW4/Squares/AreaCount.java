@@ -1,6 +1,6 @@
 package HW4.HW4.Squares;
 
-java.lang.Math.abs(4);
+import java.lang.Math;
 
 public class AreaCount {
     public static double getAreaCircle (double radius, double areaCircle) {
