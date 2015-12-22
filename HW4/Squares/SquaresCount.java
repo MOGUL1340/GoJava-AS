@@ -1,21 +1,16 @@
 package HW4.HW4.Squares;
 
 public class SquaresCount {
-    public void getSquareCircle (String[] args) {
-        double pi, radius, squareCircle;
-        pi = 3.14159;
+    public static double getSquareCircle (double pi = 3.14159, double radius, double squareCircle) {
         squareCircle = pi * radius * radius;
-        System.out.println(squareCircle);
+        return squareCircle;
     }
-    public void getSquareTriangle (String[] args) {
-        int a = 2;
-        double cathet1, cathet2, squareTriangle;
+    public static double getSquareTriangle (int a = 2, double cathet1, double cathet2, double squareTriangle) {
         squareTriangle = cathet1 * cathet2 / a;
-        System.out.println(squareTriangle);
+        return squareTriangle;
     }
-    public void getSquareRectangle (String[] args) {
-        double side1, side2, squareRectangle;
+    public static double getSquareRectangle (double side1, double side2, double squareRectangle) {
         squareRectangle = side1 * side2;
-        System.out.println(squareRectangle);
+        return squareRectangle;
     }
 }
