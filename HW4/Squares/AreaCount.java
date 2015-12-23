@@ -5,7 +5,8 @@ public class AreaCount {
         areaCircle = Math.PI * Math.pow(radius, 2);
         return areaCircle;
     }
-    public static double getAreaTriangle (int a = 2, double cathet1, double cathet2) {
+    public static double getAreaTriangle (double cathet1, double cathet2) {
+        int a = 2;
         areaTriangle = cathet1 * cathet2 / a;
         return areaTriangle;
     }
