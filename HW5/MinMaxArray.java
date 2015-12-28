@@ -11,8 +11,6 @@ public class MinMaxArray {
         System.out.println(Arrays.toString(array));
         System.out.println("Массив сортированный методом вставки");
         System.out.println(Arrays.toString(ArraySort.sortMyArray()));
-        System.out.println("Minimum = " + minimum);
-        System.out.println("Maximum = " + maximum);
     }
 
     public static int[] createArray() {
@@ -25,7 +23,7 @@ public class MinMaxArray {
     }
 
 
-    public static int[] minMaxArray{minimum, maximum} {
+    public static void minMaxArray () {
         int[] minMax = createArray();
         int minimum = minMax[0];
         int maximum = minMax[0];
@@ -33,13 +31,12 @@ public class MinMaxArray {
             if (minimum > minMax[i])
                 minimum = minMax[i];
         }
-        return minimum;
 
-        for (int i = 0; i < minMax.length; i++) {
+       for (int i = 0; i < minMax.length; i++) {
             if (maximum < minMax[i])
                 maximum = minMax[i];
         }
-        return maximum;
+        System.out.println("Minimum = " + minimum);
+        System.out.println("Maximum = " + maximum);
     }
 }
-
