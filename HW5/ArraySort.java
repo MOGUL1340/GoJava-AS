@@ -2,26 +2,25 @@ package HW5;
 
 public class ArraySort {
 
-    public static int[] sortMyArray() {
-        int[] myOwnSort =  new int[5];
-        System.arraycopy(MinMaxArray.createArray(), 0, myOwnSort, 0, 5);
-
-        for (int i = 0; i < myOwnSort.length; i++) {
-            int minElem = myOwnSort[i];
+    public static int[] sortMyArray(int[] arrayFromOtherMethod) {
+        arrayFromOtherMethod = MinMaxArray.createArray();
+        int[] newSort = arrayFromOtherMethod;
+        for (int i = 0; i < newSort.length; i++) {
+            int minElem = newSort[i];
             int i_minElem = i;
 
-            for (int j = i; j < myOwnSort.length; j++) {
-                if (myOwnSort[j] < minElem) {
-                    minElem = myOwnSort[j];
+            for (int j = i; j < newSort.length; j++) {
+                if (newSort[j] < minElem) {
+                    minElem = newSort[j];
                     i_minElem = j;
                 }
             }
             if (i != i_minElem) {
-                int temp = myOwnSort[i];
-                myOwnSort[i] = myOwnSort[i_minElem];
-                myOwnSort[i_minElem] = temp;
+                int temp = newSort[i];
+                newSort[i] = newSort[i_minElem];
+                newSort[i_minElem] = temp;
             }
         }
-        return myOwnSort;
+        return newSort;
     }
 }
