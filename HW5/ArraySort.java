@@ -3,7 +3,7 @@ package HW5;
 public class ArraySort {
 
     public static int[] sortMyArray(int[] arrayFromOtherMethod) {
-        arrayFromOtherMethod = MinMaxArray.createArray();
+
         int[] newSort = arrayFromOtherMethod;
         for (int i = 0; i < newSort.length; i++) {
             int minElem = newSort[i];
