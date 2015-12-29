@@ -3,7 +3,8 @@ package HW5;
 public class ArraySort {
 
     public static int[] sortMyArray() {
-        int[] myOwnSort = MinMaxArray.createArray();
+        int[] myOwnSort =  new int[5];
+        System.arraycopy(MinMaxArray.createArray(), 0, myOwnSort, 0, 5);
 
         for (int i = 0; i < myOwnSort.length; i++) {
             int minElem = myOwnSort[i];
@@ -24,4 +25,3 @@ public class ArraySort {
         return myOwnSort;
     }
 }
-
