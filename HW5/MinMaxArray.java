@@ -15,15 +15,13 @@ public class MinMaxArray {
     }
 
     public static void minMaxArray (int[] array) {
-    
+
         int minimum = array[0];
         int maximum = array[0];
         for (int i = 0; i < array.length; i++) {
             if (minimum > array[i])
                 minimum = array[i];
-        }
 
-        for (int i = 0; i < array.length; i++) {
             if (maximum < array[i])
                 maximum = array[i];
         }
