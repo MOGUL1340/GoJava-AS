@@ -8,4 +8,14 @@ public class Directory {
         }
         return a;
     }
+    try {
+        throw new RuntimeException();
+        } 
+        catch (Exception e) {
+            if (e instanceof RuntimeException) {                
+                System.err.print("It is a RuntimeException");              
+            } else {
+                System.err.print("Something wrong but it is not a RuntimeException");              
+            }            
+        }
 }
