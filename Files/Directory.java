@@ -1,17 +1,14 @@
 package HW3;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Directory {
 
-  AudioFile audiofile = new AudioFile;
-  TextFile textfile = new TextFile;
-  ImageFile imagefile = new ImageFile;
+  List<File> fileslist = new ArrayList<>();
 
-  List<String> fileslist = new ArrayList<>();
-
-    public void addFile (audiofile, textfile, imagefile) {
+    public void addFile (File) {
 
       fileslist.add(audiofile);
       fileslist.add(textfile);
@@ -21,4 +18,4 @@ public class Directory {
         System.out.println(str);
       }
     }
-  }
+}
