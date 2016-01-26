@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Directory {
 
-    public static void addFile (String[] args) {
+  AudioFile audiofile = new AudioFile;
+  TextFile textfile = new TextFile;
+  ImageFile imagefile = new ImageFile;
 
-      AudioFile audiofile = new AudioFile;
-      TextFile textfile = new TextFile;
-      ImageFile imagefile = new ImageFile;
+  List<String> fileslist = new ArrayList<>();
 
-      List<String> fileslist = new ArrayList<>();
+    public void addFile (audiofile, textfile, imagefile) {
 
       fileslist.add(audiofile);
       fileslist.add(textfile);
