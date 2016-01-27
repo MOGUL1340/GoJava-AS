@@ -8,12 +8,15 @@ public class Directory {
 
   List<File> fileslist = new ArrayList<>();
 
-    public void addFile (File file) {
+  public void addFile(File file) {
 
-      fileslist.add(file);
+    fileslist.add(file);
 
-      for (String str : fileslist) {
-        System.out.println(str);
-      }
+  }
+
+  public void printCollect() {
+    for (File file : fileslist) {
+      System.out.println(file);
     }
+  }
 }
