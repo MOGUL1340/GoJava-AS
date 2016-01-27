@@ -8,7 +8,7 @@ public class Directory {
 
   List<File> fileslist = new ArrayList<>();
 
-    public void addFile (File) {
+    public void addFile (File file) {
 
       fileslist.add(audiofile);
       fileslist.add(textfile);
