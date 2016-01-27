@@ -10,9 +10,7 @@ public class Directory {
 
     public void addFile (File file) {
 
-      fileslist.add(audiofile);
-      fileslist.add(textfile);
-      fileslist.add(imagefile);
+      fileslist.add(file);
 
       for (String str : fileslist) {
         System.out.println(str);
