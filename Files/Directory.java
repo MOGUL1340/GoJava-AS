@@ -32,7 +32,7 @@ public class Directory {
         dir1.addFile(textfile2);
         dir1.addFile(imagefile);
 
-        System.out.println(dir1);
+        dir1.printCollect();
 
         }
 
