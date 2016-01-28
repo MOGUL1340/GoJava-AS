@@ -1,6 +1,5 @@
 package Files;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,5 +31,9 @@ public class Directory {
         dir1.addFile(textfile);
         dir1.addFile(textfile2);
         dir1.addFile(imagefile);
-    }
+
+        System.out.println(dir1);
+
+        }
+
 }
